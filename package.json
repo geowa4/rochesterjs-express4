@@ -1,0 +1,12 @@
+{
+  "name": "rochesterjs-express4",
+  "description": "demo app for express 4.x",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  },
+  "scripts": {
+    "start": "supervisor app.js"
+  }
+}
