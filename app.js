@@ -2,6 +2,7 @@ var express, app, server
 
 express = require('express')
 app = express()
+app.use(require('morgan')('combined'))
 
 app.get('/', function (req, res){
   res.send('Hello ' + (req.query['id'] || 'World'))
